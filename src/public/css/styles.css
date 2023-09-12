@@ -1,0 +1,39 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Encabezado */
+  h1 {
+    text-align: center;
+  }
+  
+  /* Gráfico */
+  #graph {
+    max-width: 100%; /* El gráfico se ajustará al ancho máximo de su contenedor */
+    height: auto; /* La altura se ajustará automáticamente según el ancho */
+    display: block;
+    margin: 0 auto; /* Centrar el gráfico horizontalmente */
+  }
+  
+  /* Pie de página */
+  footer {
+    text-align: center;
+  }
+  
+  /* Estilos específicos para dispositivos más pequeños (media query) */
+  @media screen and (max-width: 768px) {
+    /* Ejemplo de ajuste de estilos para dispositivos con un ancho máximo de 768px */
+    body {
+      font-size: 16px; /* Cambiar el tamaño de fuente para pantallas más pequeñas */
+    }
+    
+    h1 {
+      font-size: 24px; /* Cambiar el tamaño de fuente del encabezado para pantallas más pequeñas */
+    }
+    
+    /* Agregar más ajustes de estilo según sea necesario */
+  }
+  

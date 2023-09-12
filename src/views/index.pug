@@ -1,0 +1,16 @@
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        script(src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js")
+        link(rel="stylesheet" href="./css/styles.css")
+        title Prueba técnica- Desarrollador Fullstack        
+    body 
+        h1 Prueba técnica- Desarrollador Fullstack 
+        canvas#graph(width="400px" height="200px")        
+        input(type="hidden" id="BTC" name="placaId" value=BTC)
+        input(type="hidden" id="ETH" name="placaId" value=ETH)
+        input(type="hidden" id="timestamp" name="placaId" value=timestamp)
+    footer 
+        script(src="./js/graph.js")
